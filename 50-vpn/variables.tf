@@ -13,9 +13,3 @@ variable "common_tags" {
         Environment = "dev"
     }
 }
-
-variable "vpn_tags" {
-    default = {
-        Component = "vpn"
-    }
-}
