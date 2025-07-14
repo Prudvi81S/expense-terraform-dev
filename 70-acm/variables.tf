@@ -14,12 +14,10 @@ variable "common_tags" {
     }
 }
 
-variable "backend_tags" {
-    default = {
-        Component = "backend"
-    }
-}
-
 variable "zone_name" {
     default = "paws81s.site"
+}
+
+variable "zone_id" {
+    default = "Z048057916EC744S43C08"
 }
